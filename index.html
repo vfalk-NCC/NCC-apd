@@ -8,13 +8,11 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: hidden;
+      display: flex;
+      flex-direction: row; /* ändra till column om du vill ha dem ovanpå varandra */
     }
     iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
+      width: 50%; /* båda tar halva bredden */
       height: 100%;
       border: none;
     }
@@ -22,5 +20,12 @@
 </head>
 <body>
   <iframe src="https://view.genially.com/68f3f3a3e5bf54d36c94e2a3" allowfullscreen></iframe>
+
+  <iframe
+    title="NSV1 - Vid import av nya tidplan"
+    src="https://sketchfab.com/models/24e05e11c09e4a15a302e5bdba110dbc/embed?annotations_visible=1"
+    allow="autoplay; fullscreen; xr-spatial-tracking"
+    allowfullscreen>
+  </iframe>
 </body>
 </html>
